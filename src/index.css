@@ -1,0 +1,715 @@
+@import url(//db.onlinewebfonts.com/c/f697c472b2ad5a1ca383a63c349f3dd9?family=ProximaNova-Bold);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --textColor: #88c232;
+  --whiteColor: #ffffff;
+  --BlackColor: #000000;
+}
+
+/* ------- Start Header Styling-------------- */
+
+.h-container {
+  max-width: 1920px;
+  height: 75px;
+  background-color: #204b9a;
+  z-index: 2;
+}
+.menuhide {
+  left: -100%;
+}
+.menushow {
+  left: 0%;
+}
+
+.menuhide,
+.menushow {
+  transition-duration: 0.3s !important;
+}
+.header-left-side {
+  max-height: 75px;
+}
+
+.logo {
+  width: 99.12px;
+  height: 138.74px;
+}
+
+.h-menu-ul-parent {
+  margin-left: 50px;
+}
+
+.h-menu-li {
+  margin: 0 20px;
+}
+
+.h-li-navlink {
+  font-size: 1.7rem;
+}
+
+.h-menu-tr-li {
+  margin-left: 0px;
+}
+
+.h-menu-marketplace-li {
+  margin-left: 0px;
+}
+.h-menu-whitepaper-li {
+  margin: 0;
+}
+.h-btn {
+  font-size: 1.5rem !important;
+  font-family: "ProximaNova-Bold", Arial, Helvetica, sans-serif;
+  font-weight: lighter !important;
+  width: 225px;
+  height: 53px;
+  background: #618930 !important;
+  font-size: 18.91px;
+  margin-left: 565px;
+}
+
+.header-top-bar {
+  height: 60px;
+  background-color: #204b9a;
+}
+
+.h-toogle-btn {
+  width: 50px;
+  height: 50px;
+  background-image: url(svg/header/toogle_btn.png);
+}
+.overlay {
+  z-index: 1;
+}
+
+/* ------------------ */
+
+.cross-parent {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.cross-line {
+  height: 6px;
+  background: var(--whiteColor);
+}
+.cross-left {
+  transform: translate(0px, 25px) rotate(45deg);
+}
+.cross-right {
+  transform: translate(0px, 19px) rotate(-45deg);
+}
+
+.overlay {
+  opacity: 0.6;
+  background-color: rgb(0, 0, 0);
+}
+
+/* 
+  .header-main .t-parent-link {
+ 
+ display: none
+  
+  } */
+
+/* .t-parent { */
+/*   width: 60%;
+    width: 60%; */
+/* width:60%;
+  } */
+/* .nav-cross-parent,
+  .t-parent {
+cursor: pointer;
+  } */
+
+/* .t-parent:active .t-lines {
+ background-color:  rgb(0, 175, 233);
+ 
+  }
+   */
+
+/*   
+  
+     .t-parent .t-lines {
+ 
+      width:80% !important;
+     }
+
+
+
+     .t-parent-link .t-parent {
+        width: 50%;
+        height: 40% !important;
+      }
+    
+    
+    .t-lines {
+      height: 4px;
+      transition: 0.3s ease-in-out;
+      background: var(--logo-background);
+    }
+    
+    .nav-cross-parent:active .nav-cross {
+      background-color: rgb(0, 175, 233) !important;
+    }
+    
+    
+      .nav-cross-parent {
+        width: 30px;
+        height: 40px;
+      }
+    
+     .nav-cross-parent .nav-cross {
+        width: 75% !important ;
+      }
+    
+    
+    .nav-cross-top {
+      transform: translate(0px, 12px) rotate(45deg);
+    }
+    .nav-cross-bottom {
+      transform: translate(0px, -8px) rotate(-45deg);
+    }
+    
+    .nav-cross-top,
+      .nav-cross-bottom {
+        height: 3px;
+        background: var(--logo-background);
+      }
+    
+    .t-midddle {
+      margin-top: 0.8px;
+    }
+    
+  
+   */
+
+/* ---------------------- */
+@media screen and (max-width: 1400px) {
+  .h-li-navlink {
+    font-size: 1.2rem;
+  }
+  div .h-btn {
+    font-size: 1.2rem !important;
+    margin-left: unset;
+    width: fit-content;
+    padding: 0px 20px;
+  }
+  .logo {
+    height: 100px;
+  }
+
+  .h-container {
+    height: 65px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .h-container {
+    height: 60px;
+  }
+  .logo {
+    height: 105px;
+  }
+
+  .h-btn {
+    font-size: 1rem;
+    padding: 6px 12px;
+    height: fit-content;
+  }
+  .h-menu-ul-parent  {
+    margin-left: 7px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .h-container {
+    width: 75%;
+    position: fixed;
+  }
+
+  .header-left-side {
+    width: 100% !important;
+    height: auto !important;
+    max-height: unset !important;
+  }
+  .logo {
+    width: 100%;
+    height: 70px;
+    margin-left: 0px;
+  }
+  .logo1 {
+    height: 90px;
+  }
+
+  .h-li-navlink  {
+    font-size: 1.019rem;
+  }
+  .logo-and-cross-parent {
+    padding-left: 50px;
+  }
+  .h-btn {
+    padding: 0px 10px;
+    margin-left: 50px !important;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .header-left-side {
+    height: auto;
+  }
+  .h-menu-ul-parent {
+    margin-left: 15px;
+  }
+  .logo-and-cross-parent {
+    padding-left: 15px;
+  }
+  .logo1 {
+    height: 75px;
+  }
+
+  .h-toogle-btn {
+    align-self: center;
+    width: 40px;
+    height: 40px;
+  }
+
+  .cross-left {
+    transform: translate(0px, 22px) rotate(45deg);
+  }
+  .cross-parent {
+    margin-top: 5px;
+  }
+
+  div .cross-line {
+    height: 3px;
+    width: 70% !important;
+  }
+  .h-btn {
+    padding: 0px 10px !important;
+    margin-left: 15px !important;
+  }
+}
+
+/* ------- End Header Styling-------------- */
+
+/* ------- Start Hero section Styling-------------- */
+
+.hero-img {
+  max-width: 1920px;
+  margin-top: 60px;
+  height: 1088px;
+}
+
+@media screen and (max-width: 1400px) {
+  .hero-img {
+    height: 900px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .hero-img {
+    height: 800px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .hero-img {
+    height: 650px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .hero-img {
+    height: 450px;
+  }
+}
+
+/* ------- End  Hero section Styling-------------- */
+
+/* ------- Start Earn Adventrue section Styling-------------- */
+.Earn-Adv-and-special-feature-parent {
+  /* background: #222924; */
+  /* background-image: url(svg/earnadventure/backgroundImage.png),url(svg/timelines/timline_backgroundImage.png); */
+  /* background-image: url(svg/back1.jpg),url(svg/back2.jpg) !important;
+  background-repeat: no-repeat; */
+  background-size: cover, cover;
+  /* background-size: 100% 40%,100% 60%; */
+}
+
+.earn-adv-parent {
+  background-image: url(svg/earnadventure/backgroundImage.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background: #222924;
+  max-width: 1920px;
+}
+.earn-adv-subparent1 {
+  padding-top: 73px;
+  width: 1380px !important;
+}
+
+.earn-adv-subparent-left-sec {
+  padding-top: 50px;
+  width: 846.55px;
+}
+
+/* .earn-adv-subparent-right-sec {
+  width: 395px;
+} */
+
+.earn-adv-small-h {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-family: "WAGHUPersonalUse", Arial, sans-serif;
+}
+
+.earn-adv-h {
+  color: var(--textColor);
+  font-family: "WAGHUPersonalUse", Arial, sans-serif;
+  font-size: 75px;
+}
+.earn-adv-underline-image {
+  width: 116px;
+  height: 11px;
+}
+.earn-adv-para1,
+.earn-adv-para2 {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-family: "ProximaNova-Bold", Arial, sans-serif;
+}
+
+.satan {
+  width: 395px;
+  height: 463px;
+}
+
+.satan-shadow {
+  width: 352px;
+  height: 61px;
+}
+
+/* ----Start Card Styling of this Section------ */
+
+.card-border {
+  background-image: url(svg/earnadventure/card_border.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 126px;
+}
+
+.card-img {
+  margin-top: 105px;
+  margin-left: 105px;
+  width: 683px !important;
+  height: 424px;
+}
+.card-parent {
+  width: 1340px;
+  height: 640px;
+  margin-bottom: 200px !important;
+}
+
+.card-parent-right-sec {
+  margin-top: 94px;
+  margin-right: 0px;
+}
+
+.card-header {
+  width: 554px;
+  height: 148px;
+}
+
+/* .card-header-text{
+  width:428px;
+  height:59px;
+} */
+.card-header-underline {
+  width: 113px;
+  height: 11px;
+  margin-left: 35px;
+}
+
+ .card-slider-para-head{
+   color: var(--textColor);
+   font-size:25px
+ }
+.cards-slider-para{
+  font-size: 14px;
+  
+}
+ 
+
+@media screen and (max-width: 1400px) {
+  .earn-adv-subparent-left-sec {
+    width: 720px;
+  }
+
+  .earn-adv-small-h {
+    font-size: 30px;
+  }
+  .earn-adv-h {
+    font-size: 58px;
+  }
+  .earn-adv-para1,
+  .earn-adv-para2 {
+    font-size: 20px;
+  }
+  .earn-adv-subparent-right-sec {
+    width: 325px;
+  }
+  .satan {
+    width: 325px !important;
+    height: 405px !important;
+  }
+
+  .satan-shadow {
+    width: 300px;
+    height: 35px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .earn-adv-small-h  {
+    font-size: 35px;
+  }
+
+  .earn-adv-h {
+    font-size: 60px;
+  }
+  .card-parent {
+    min-height: auto;
+    height: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+}
+@media screen and (max-width: 575px) {
+}
+
+/* ----End Card Styling of this Section------ */
+
+/* ------- End Earn Adventure section Styling-------------- */
+
+/* ------- Start  Special features section Styling-------------- */
+
+.Specialfeatures-parent {
+  max-width: 1920px;
+  background-color: #222924;
+  width: 1939px;
+  height: 1569px;
+  background-image: url(svg/specials_features/speailfeature_background.png);
+}
+/* .bottom-curved-border{
+
+} */
+
+.content-parent {
+  padding-top: 465px;
+  padding-left: 230px;
+}
+
+.content-header {
+  font-size: 75px;
+  font-family: "WAGHUPersonalUse", Arial, sans-serif;
+}
+.content-header {
+  color: var(--textColor);
+}
+.content-header-underline {
+  margin-top: 22px;
+  margin-bottom: 42px;
+}
+.feature-parent {
+  margin-bottom: 18px;
+  width: 702px;
+}
+.feature-content-parent {
+  margin-left: 63px;
+}
+.feature-icon {
+  width: 117px;
+  height: 118px;
+}
+.feature-heading {
+  color: var(--textColor);
+  font-size: 30px;
+  font-family: "WAGHUPersonalUse", Arial, sans-serif;
+}
+.feature-underline {
+  margin-top: 14px;
+  margin-bottom: 26px;
+}
+.fearture-detail {
+  font-size: 20px;
+  font-family: "ProximaNova-Bold", Arial, sans-serif;
+}
+
+.Feature_bottom_border {
+  width: 717px;
+  height: 5px;
+  background-color: #ffffff;
+  opacity: 0.2;
+}
+
+/* ------- End Special features section Styling-------------- */
+
+/* ------- Start TimeLines section Styling-------------- */
+
+.Timeline_Parent {
+  background-color: #222924;
+  max-width: 1920px;
+  /* background-image: url(svg/timelines/timline_backgroundImage.png); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  padding-bottom: 100px;
+}
+.roadmap-header {
+  background-image: url(svg/timelines/roadmap_head_background.png);
+  width: 799px;
+  height: 152px;
+  margin-bottom: 100px;
+}
+.roadmap-subparent {
+  position: relative;
+  left: 42%;
+}
+.roadmap-content-parent {
+  position: relative;
+  top: 85px;
+  left: 37px;
+}
+
+.roadmap-circleImage {
+  width: 115px;
+  height: 116px;
+}
+.roadmap-vertical-line {
+  width: 6px;
+  height: 105px;
+}
+.roadmap-horizonatal-line {
+  width: 208px;
+  height: 9px;
+}
+
+.content-sub-parent {
+  position: relative;
+  left: 43px;
+  top: -17px;
+}
+
+.roadmap-header-content {
+  color: var(--textColor);
+  font-size: 28.5px;
+  font-family: "MyriadPro-Regular", Arial, sans-serif;
+}
+.roadmap-para-content {
+  color: var(--textColor);
+  font-size: 18.5px;
+  font-family: "MyriadPro-Regular", Arial, sans-serif;
+}
+
+.backedby_part {
+  width: 1245px;
+  height: 299px;
+}
+
+.backedby_header {
+  color: var(--textColor);
+  font-family: "WAGHUPersonalUse", Arial, sans-serif;
+  font-size: 57px;
+}
+
+.backed_cards_parent {
+  margin-top: 46px;
+}
+.backed_card {
+  background-color: #6a6e71;
+  border-radius: 15px;
+  height: 177px;
+}
+
+/* ------- End TimeLines section Styling-------------- */
+
+/* ------- Start Footer section Styling-------------- */
+
+.footer-parent {
+  max-width: 1920px;
+  background-color: #222629;
+  max-height: 461px;
+  border-top: 0.5px solid rgb(126, 125, 125);
+}
+
+.footer-img {
+  width: 813px;
+  height: 339px;
+}
+.soical-icon {
+  margin-right: 20px;
+  /* margin-left:20px; */
+}
+.footer-social-links-parent {
+  margin-left: 120px;
+  margin-top: -50px;
+  margin-bottom: 80px;
+}
+
+.socialconnected-text {
+  font-family: "ProximaNova-Bold", Arial, sans-serif;
+  font-size: 23px;
+}
+
+.social-icons-parent {
+  width: 231px;
+  height: 82px;
+}
+
+.soical-icon {
+  width: 42px;
+  height: 42px;
+}
+.discord-icon,
+.twitter-icon,
+.instagram-icon {
+  margin-right: 20px;
+}
+.footer-rightpart {
+  max-width: 594px;
+  margin-left: 218px;
+  margin-top: 150px;
+}
+
+.form-control {
+  width: 596px;
+  height: 89px;
+  border-radius: 13px;
+  font-size: 2rem;
+}
+.f-btn-subscribe {
+  font-family: "ProximaNova-Bold", Arial, sans-serif;
+  font-size: 24px;
+  border-top-right-radius: 13px;
+  border-bottom-right-radius: 13px;
+  height: 89px;
+  margin-top: -117px;
+  margin-left: 500px;
+}
+.footer-menu {
+  margin-top: 20px;
+}
+
+.footer-menu-li {
+  color: var(--textColor);
+  font-family: "ProximaNova-Bold", Arial, sans-serif;
+  font-size: 25px;
+}
+
+.f-home-li,
+.f-whitepaper-li {
+  margin-right: 100px;
+}
+
+/* ------- End Footer section Styling-------------- */
