@@ -9,20 +9,16 @@ import {
 const App = () => {
   return (
     <>
+      <Header />
+      <Hero />
+      <EarnAdventureSection />
+      <SpecialFeatures />
 
-      {/* <Header />*/}
-      <Hero /> 
-    <EarnAdventureSection />
-  {/* <SpecialFeatures />
-     
       <Timelineroadmap />
-      <Footer /> */}
+      {/* <Footer />   */}
       {/* */}
     </>
   );
 };
 
 export default App;
-
-
-

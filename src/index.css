@@ -13,6 +13,10 @@
 
 /* ------- Start Header Styling-------------- */
 
+header {
+  z-index: 1;
+}
+
 .h-container {
   max-width: 1920px;
   height: 75px;
@@ -310,6 +314,7 @@ cursor: pointer;
     height: 900px;
   }
 }
+
 @media screen and (max-width: 991px) {
   .hero-img {
     height: 800px;
@@ -377,7 +382,7 @@ cursor: pointer;
 .earn-adv-para1,
 .earn-adv-para2 {
   color: rgb(255, 255, 255);
-  font-size: 25px;
+  font-size: 30px;
   font-family: "ProximaNova-Bold", Arial, sans-serif;
 }
 
@@ -393,33 +398,36 @@ cursor: pointer;
 
 /* ----Start Card Styling of this Section------ */
 
-.card-border {
-  background-image: url(svg/earnadventure/card_border.svg);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  margin-top: 126px;
-}
-
 .card-img {
   margin-top: 105px;
   margin-left: 105px;
-  width: 683px !important;
-  height: 424px;
+  width: 650px !important;
+  height: 400px;
 }
 .card-parent {
   width: 1340px;
   height: 640px;
   margin-bottom: 200px !important;
+  margin-top: 126px;
+
+  background-image: url(svg/earnadventure/card_border.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .card-parent-right-sec {
-  margin-top: 94px;
-  margin-right: 0px;
+  width: min-content;
+  margin-top: 40px;
+  margin-left: -80px;
+  padding-right: 20px;
 }
 
 .card-header {
-  width: 554px;
-  height: 148px;
+  background-image: url(svg/earnadventure/card_header_back.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 120px;
 }
 
 /* .card-header-text{
@@ -429,22 +437,20 @@ cursor: pointer;
 .card-header-underline {
   width: 113px;
   height: 11px;
-  margin-left: 35px;
+  margin-left: 15px;
 }
 
- .card-slider-para-head{
-   color: var(--textColor);
-   font-size:25px
- }
-.cards-slider-para{
-  font-size: 14px;
-  
+.card-slider-para-head {
+  color: var(--textColor);
+  font-size: 35px;
 }
- 
+.cards-slider-para {
+  font-size: 30px;
+}
 
 @media screen and (max-width: 1400px) {
   .earn-adv-subparent-left-sec {
-    width: 720px;
+    width: 600px;
   }
 
   .earn-adv-small-h {
@@ -453,10 +459,7 @@ cursor: pointer;
   .earn-adv-h {
     font-size: 58px;
   }
-  .earn-adv-para1,
-  .earn-adv-para2 {
-    font-size: 20px;
-  }
+
   .earn-adv-subparent-right-sec {
     width: 325px;
   }
@@ -469,25 +472,175 @@ cursor: pointer;
     width: 300px;
     height: 35px;
   }
+
+  .card-parent {
+    width: 1130px;
+    margin-top: 70px;
+    margin-bottom: 70px !important;
+  }
+
+  .card-img {
+    width: 550px !important;
+    height: 350px;
+  }
+
+  .card-header {
+    width: 425px;
+    height: 105px;
+  }
+  .card-header-underline {
+    margin-left: 12px;
+  }
+
+  .card-slider-para-head {
+    font-size: 37px;
+  }
+
+  .cards-slider-para {
+    font-size: 26px;
+  }
 }
+@media screen and (max-width: 1200px) {
+  .card-parent-right-sec {
+    margin-top: 22px;
+  }
+  .card-parent {
+    width: 975px;
+    height: 460px;
+    margin-bottom: 200px !important;
+  }
+
+  .card-img {
+    margin-top: 105px;
+    margin-left: 105px;
+    width: 480px !important;
+    height: 320px;
+  }
+
+  .card-header {
+    width: 390px;
+    height: 99px;
+    background-size: 100% 100%;
+  }
+  .card-header-underline {
+    width: 101px;
+    height: 10px;
+  }
+
+  .card-slider-para-head {
+    font-size: 32px;
+  }
+
+  .cards-slider-para {
+    font-size: 20px;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .earn-adv-small-h  {
     font-size: 35px;
   }
 
-  .earn-adv-h {
-    font-size: 60px;
-  }
   .card-parent {
     min-height: auto;
     height: auto;
   }
-}
-@media screen and (max-width: 767px) {
-}
-@media screen and (max-width: 575px) {
+  .earn-adv-small-h {
+    font-size: 26px;
+  }
+
+  .earn-adv-underline-image {
+    width: 85px;
+    height: 7px;
+  }
+  .earn-adv-h {
+    font-size: 47px;
+  }
+  .earn-adv-subparent-left-sec {
+    width: 100%;
+  }
+  .earn-adv-subparent-right-sec {
+    width: 100%;
+  }
+  .satan {
+    width: 280px !important;
+    height: 350px !important;
+  }
+  .satan-shadow {
+    width: 260px;
+    height: 25px;
+  }
+  .card-parent {
+    background-image: none;
+  }
+
+  /* --------- */
+
+  .card-parent {
+    width: auto;
+  }
+
+  .card-header-underline {
+    margin-left: 10px;
+  }
 }
 
+@media screen and (max-width: 767px) {
+  .earn-adv-h {
+    font-size: 40px;
+  }
+
+  /* .earn-adv-para1,
+  .earn-adv-para2 {
+    font-size: 20px;
+  } */
+}
+
+@media screen and (max-width: 575px) {
+  .satan {
+    width: 240px !important;
+    height: 300px !important;
+  }
+  .satan-shadow {
+    width: 230px;
+    height: 17px;
+  }
+
+  .card-parent-right-sec {
+    width: 100%;
+    margin-left: 0px;
+    padding-right: 0px;
+  }
+  .card-parent {
+    width: auto;
+    margin-top: 90px;
+    margin-bottom: 100px;
+  }
+
+  .card-img {
+    width: 300px !important;
+    height: 210px;
+  }
+
+  .card-header {
+    width: 280px;
+    height: 75px;
+  }
+  .card-header-underline {
+    width: 70px;
+  }
+
+  .card-slider-para-head {
+    font-size: 24px;
+  }
+
+  .cards-slider-para {
+    font-size: 17px;
+  }
+}
+
+.earn-adv-subparent-left-sec {
+}
 /* ----End Card Styling of this Section------ */
 
 /* ------- End Earn Adventure section Styling-------------- */
@@ -496,18 +649,21 @@ cursor: pointer;
 
 .Specialfeatures-parent {
   max-width: 1920px;
+  padding: 0px 0 250px 0;
+
   background-color: #222924;
-  width: 1939px;
-  height: 1569px;
+  /* height: 1569px; */
   background-image: url(svg/specials_features/speailfeature_background.png);
+  background-size: 100% 115%;
+  background-repeat: no-repeat;
 }
 /* .bottom-curved-border{
 
 } */
 
 .content-parent {
-  padding-top: 465px;
-  padding-left: 230px;
+  padding-top: 700px;
+  padding-left: 100px;
 }
 
 .content-header {
@@ -517,10 +673,7 @@ cursor: pointer;
 .content-header {
   color: var(--textColor);
 }
-.content-header-underline {
-  margin-top: 22px;
-  margin-bottom: 42px;
-}
+
 .feature-parent {
   margin-bottom: 18px;
   width: 702px;
@@ -534,15 +687,21 @@ cursor: pointer;
 }
 .feature-heading {
   color: var(--textColor);
-  font-size: 30px;
+  font-size: 37px;
   font-family: "WAGHUPersonalUse", Arial, sans-serif;
 }
+
 .feature-underline {
-  margin-top: 14px;
-  margin-bottom: 26px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.content-header-underline {
+  margin-top: 0px;
+  margin-bottom: 45px;
 }
 .fearture-detail {
-  font-size: 20px;
+  font-size: 30px;
   font-family: "ProximaNova-Bold", Arial, sans-serif;
 }
 
@@ -552,10 +711,131 @@ cursor: pointer;
   background-color: #ffffff;
   opacity: 0.2;
 }
+.Feature_bottom_border,
+.fearture-detail {
+  width: 50%;
+}
+@media screen and (max-width: 1400px) {
+  .Specialfeatures-parent {
+    padding: 0px 0 250px 0;
+  }
+
+  .content-parent {
+    padding-top: 700px;
+    padding-left: 100px;
+  }
+  .Specialfeatures-parent {
+    background-size: 105% 115%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .Specialfeatures-parent {
+    padding: 0px 0 250px 0;
+  }
+
+  .content-parent {
+    padding-top: 700px;
+    padding-left: 100px;
+  }
+  .Specialfeatures-parent {
+    background-size: 105% 115%;
+  }
+
+  .feature-content-parent {
+    margin-left: 50px;
+  }
+  .feature-icon {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .Specialfeatures-parent {
+    background-size: 185% 113%;
+    background-position: 0% -270px;
+    padding: 370px 0 460px 0;
+  }
+  .Feature_bottom_border,
+  .fearture-detail {
+    width: 80%;
+  }
+  .content-parent {
+    padding-top: 180px;
+    padding-left: 40px;
+  }
+
+  .feature-content-parent {
+    margin-left: 0px;
+  }
+
+  .feature-icon {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .feature-icon {
+    width: 80px;
+    height: 80px;
+  }
+  .content-parent {
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .Feature_bottom_border,
+  .fearture-detail {
+    width: 100%;
+  }
+  .feature-icon {
+    width: 80px;
+    height: 80px;
+  }
+  .content-parent {
+    padding-left: 15px;
+  }
+}
 
 /* ------- End Special features section Styling-------------- */
 
 /* ------- Start TimeLines section Styling-------------- */
+.main-content-parent {
+  /* transform: rotateY(180deg);
+  position: absolute;
+  top: 55px;
+  left: 150px; */
+}
+
+.content-Image {
+  /* transform: rotateY(180deg); */
+}
+.content-div {
+  /* position: relative;
+  top: -17px;
+  left: -106%; */
+}
+.right-timeline {
+  position: absolute !important;
+  top: 25% !important;
+  left: 20% !important;
+}
+
+.left-timeline {
+  position: absolute !important;
+  top: 25% !important;
+  left: -31% !important;
+  text-align: end;
+}
+.left-x-line {
+  transform: rotate(180deg);
+}
+.left-timline-content {
+  left: -104% !important;
+}
 
 .Timeline_Parent {
   background-color: #222924;
@@ -713,3 +993,49 @@ cursor: pointer;
 }
 
 /* ------- End Footer section Styling-------------- */
+
+@media screen and (max-width: 1400px) {
+  .content-header {
+    font-size: 58px;
+  }
+  .feature-heading {
+    font-size: 37px;
+  }
+  .fearture-detail,
+  .earn-adv-para1,
+  .earn-adv-para2 {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .fearture-detail,
+  .earn-adv-para1,
+  .earn-adv-para2 {
+    font-size: 20px;
+  }
+  .feature-heading {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .content-header {
+    font-size: 47px;
+  }
+}
+@media screen and (max-width: 767px) {
+}
+@media screen and (max-width: 575px) {
+  .content-header {
+    font-size: 40px;
+  }
+  .fearture-detail,
+  .earn-adv-para1,
+  .earn-adv-para2 {
+    font-size: 17px;
+  }
+  .feature-heading {
+    font-size: 24px;
+  }
+}
