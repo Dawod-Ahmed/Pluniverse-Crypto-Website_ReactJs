@@ -10,7 +10,7 @@ const roadmap_Comp = (props) => {
   console.log("Test", props.heading);
   return (
     <>
-      <div className="roadmap-subparent d-flex align-items-center">
+      <div className="roadmap-subparent d-flex align-items-center flex-column flex-lg-row">
         <div className="d-flex flex-column align-items-center">
           <img
             src={RoadMap_Images.Timeline_circleImage}
@@ -29,9 +29,9 @@ const roadmap_Comp = (props) => {
           <img
             src={RoadMap_Images.Horizontal_line}
             alt=""
-            className={`roadmap-horizonatal-line ${leftXline}`}
+            className={`roadmap-horizonatal-line ${leftXline} d-none  d-lg-block`}
           />
-          <div className={`content-sub-parent ${lefttimlineContent}`}>
+          <div className={`content-sub-parent ${lefttimlineContent} `}>
             <p className="roadmap-header-content">{heading}</p>
             <p className="roadmap-para-content">{text1}</p>
             <p className="roadmap-para-content">{text2}</p>

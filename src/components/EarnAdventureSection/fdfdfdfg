@@ -1,252 +1,124 @@
-/* 
-.card-parent-right-sec{
-  width:100%;
-    margin-left: 0px;
-    padding-right: 0px;
-}
-.card-parent {
-    width: auto;
-    margin-top: 90px;
-    margin-bottom: 100px;
+.Timeline_Parent {
+  background-color: #222924;
+  max-width: 1920px;
+  /* background-image: url(svg/timelines/timline_backgroundImage.png); */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-bottom: 100px;
 }
 
-.card-img{
-    width: 300px !important;
-    height: 210px;
+/* -------Bydefault------- */
+.roadmap-header {
+  height: 125px;
+  font-size: 4rem;
+  font-weight: 700 !important;
+  padding-bottom: 20px;
+}
+.left-timeline {
+  left: -36% !important;
 }
 
-
-.card-header{
-width: 280px;
-height: 75px;
+/* -----1200 to 1399 --------   */
+.roadmap-header {
+  font-size: 3.5rem;
 }
-.card-header-underline {
-  width: 70px;
+.roadmap-header {
+  margin-bottom: 80px;
 }
-
-.card-slider-para-head {
-  font-size: 24px;
+.content-sub-parent {
+  left: 16px;
 }
 
-.cards-slider-para {
-  font-size: 17px;
+/* -----992 to 1199 --------   */
+
+.roadmap-header {
+  height: 100px;
+  width: 530px;
+}
+.roadmap-header {
+  font-size: 3.2rem;
 }
 
-card-content-parent mt-4 mt-sm-0
-
-header{
-  z-index: 1;
+.left-timeline {
+  left: -29.5% !important;
 }
- */
-
-/* ------------------ */
-
-/* card-parent-right-sec px-lg-5 
-.card-header-underline{
-align-self: start;
-    margin-left: 54px;
-} */
-
-/* -------------- */
-
-/* 
-.card-parent {
-  width: 1130px;
-  margin-top: 70px;
-  margin-bottom: 70px !important;
+.content-sub-parent {
+  left: 8px;
 }
 
-
-.card-img {
-  width: 550px !important;
-  height: 350px;
-}
-
-.card-header {
-  width: 425px;
-  height: 105px;
-}
-.card-header-underline {
-  
-  margin-left: 12px;
-}
-
-.card-slider-para-head {
-  font-size: 37px;
-}
-
-.cards-slider-para {
-  font-size: 26px;
-}
- */
-
-/* --------------/ */
-/* card-header
-  d-flex
-  justify-content-center
-  align-items-center
-  .card-parent-right-sec {
-    margin-top: 22px;
-  }
-  .card-parent {
-    width: 975px;
-    height: 460px;
-    margin-bottom: 200px !important;
-  }
-  
-  .card-img {
-    margin-top: 105px;
-    margin-left: 105px;
-    width: 480px !important;
-    height: 320px;
-  }
-  
-  .card-header {
-    width: 390px;
-    height: 99px;
-    background-size: 100% 100%;
-  }
-  .card-header-underline {
-    width: 101px;
-    height: 10px;
-  }
-  
-  .card-slider-para-head {
-    font-size: 32px;
-  }
-  
-  .cards-slider-para {
-    font-size: 20px;
-  }
-   */
-
-/* -------------Above 1400 ----------*/
-
-.Specialfeatures-parent {
-  padding: 0px 0 250px 0;
-}
-
-.content-parent {
-  padding-top: 465px;
-  padding-left: 130px;
-}
-
-/* ------------Finish ------------- */
-
-/* -------------Max 1400 ----------*/
-
-.Specialfeatures-parent {
-  padding: 0px 0 250px 0;
-}
-
-.content-parent {
-  padding-top: 410px;
-  padding-left: 100px;
-}
-.Specialfeatures-parent {
-  background-size: 105% 100%;
-}
-
-/* ------------Finish ------------- */
-
-/* -------------Max 1200 ----------*/
-
-.Specialfeatures-parent {
-  padding: 0px 0 250px 0;
-}
-
-.content-parent {
-  padding-top: 410px;
-  padding-left: 100px;
-}
-.Specialfeatures-parent {
-  background-size: 115% 100%;
-}
-
-.feature-content-parent {
-  margin-left: 50px;
-}
-.feature-icon {
+.roadmap-circleImage {
   width: 100px;
   height: 100px;
 }
-
-/* ------------Finish ------------- */
-
-d-flex align-items-center justify-content-center
- mt-2 mt-sm-3 mt-lg-0
-
- /* -------------Max 991 ----------*/
-
- .Specialfeatures-parent {
-  background-size: 185% 113%;
-  background-position: 0% -270px;
-  padding: 370px 0 460px 0;
+.roadmap-vertical-line {
+  width: 5px;
+  height: 75px;
 }
 
-.content-parent {
-  padding-top: 400px;
-  padding-left: 40px;
-}
-.Specialfeatures-parent {
-  background-size: 185% 100%;
-  
+.roadmap-horizonatal-line {
+  width: 160px;
+  height: 6px;
 }
 
-.feature-content-parent {
-  margin-left: 0px;
+.left-timline-content {
+  left: -99% !important;
+}
+.roadmap-header-content {
+  font-size: 25px;
 }
 
-.feature-icon {
-  width: 100px;
-  height: 100px;
+.roadmap-para-content {
+  font-size: 16.5px;
 }
 
-/* ------------Finish ------------- */
+/* -----768 to 991 --------   */
 
-.right-timeline{
-  position: absolute;
-  top: 25%;
-  left: 20%;
+.roadmap-header {
+  height: 80px;
+
+  width: 500px;
+}
+.roadmap-header {
+  font-size: 2.8rem;
+}
+.left-timeline {
+  left: -29.5% !important;
+}
+.content-sub-parent {
+  left: 8px;
 }
 
-
-.left-timeline{
-  position: absolute!important;
-  top: 25%!important;
-  left: -31%!important;
-  text-align: end;
-}
-.left-x-line{
-  transform: rotate(180deg);
-}
-.left-timline-content{
-left: -104%;
-
+.roadmap-header {
+  margin-bottom: 60px;
 }
 
-
-
-.content-Image{
-transform: rotateY(180deg);
-}
-.content-div{
-position: relative;
-top: -17px;
-left: -106%;
+.roadmap-circleImage {
+  width: 90px;
+  height: 90px;
 }
 
+  roadmap-horizonatal-line  d-none  d-lg-block
+  content-sub-parent text-center text-lg-start
 
 
-/* position: relative;
-left: -170%;
-text-align: right;
+  roadmap-subparent  position-static position-lg-relative d-flex align-items-center flex-column flex-lg-row
 
+  content-sub-parent position-static position-lg-relative justify-content-center flex-column flex-lg-row text-center text-lg-start
 
-.right-timeline{
+  .roadmap-horizonatal-line {
+  width: 160px;
+  height: 6px;
+}
 
-} */
+.left-timline-content {
+  left: -99% !important;
+}
+.roadmap-header-content {
+  font-size: 25px;
+}
 
+.roadmap-para-content {
+  font-size: 16.5px;
+}
 
-
-
+/* -----576 to 767 --------   */

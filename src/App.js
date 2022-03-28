@@ -9,6 +9,7 @@ import {
 const App = () => {
   return (
     <>
+    
       <Header />
       <Hero />
       <EarnAdventureSection />
