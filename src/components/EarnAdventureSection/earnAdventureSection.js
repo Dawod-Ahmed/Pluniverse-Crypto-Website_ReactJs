@@ -6,8 +6,14 @@ import { satan_sahdow, Satan, header_underline } from "../../svg/assets.js";
 const EarnAdventure = () => {
   return (
     // <div className="earn-adv-parent d-flex justify-content-center flex-column align-items-center">
-    <div className="earn-adv-parent d-flex flex-column justify-content-center align-items-center px-2 px-sm-3 px-md-0">
-      <div className="earn-adv-subparent1 w-100   d-flex flex-column flex-lg-row align-items-center   justify-content-lg-around  ">
+    <div
+      className="earn-adv-parent d-flex flex-column justify-content-center align-items-center px-3 px-sm-4 px-md-0
+    "
+    >
+      <div
+        id="earnAdventure"
+        className="earn-adv-subparent1 w-100   d-flex flex-column flex-lg-row align-items-center   justify-content-lg-around  "
+      >
         <div className="earn-adv-subparent-left-sec py-5 px-lg-0 ">
           <p className="earn-adv-small-h mb-0">The most awaited play to</p>
           <h1 className="earn-adv-h mb-0">EARN ADVENTURE!</h1>

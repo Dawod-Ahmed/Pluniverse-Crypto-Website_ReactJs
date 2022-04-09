@@ -39,7 +39,7 @@ const Header = () => {
             menu ? "menushow" : "menuhide"
           } `}
         >
-          <div className="header-sub-parent d-flex w-100 justify-content-lg-around align-items-start align-items-md-center   justify-content-md-between px-md-3 px-lg-0 flex-column justify-content-center flex-md-row ">
+          <div className="header-sub-parent d-flex w-100 justify-content-lg-around align-items-start align-items-md-center   justify-content-md-between px-3 px-sm-4 px-lg-0 flex-column justify-content-center flex-md-row ">
             <div className="header-left-side d-flex align-items-start flex-column justify-content-center flex-md-row align-items-md-center ">
               <div className="logo-and-cross-parent d-flex justify-content-between d-md-block w-100">
                 <img
@@ -62,7 +62,7 @@ const Header = () => {
                     <>
                       <li className={`h-menu-li ${value.classsName}`}>
                         <a
-                          href="/"
+                          href={value.link}
                           className={`h-li-navlink text-decoration-none text-light fw-bold`}
                         >
                           {value.header_menu}

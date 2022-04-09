@@ -1,13 +1,17 @@
-
 [
-  {"header_menu":"Adventure","classsName":"h-menu-tr-li"},
-  {"header_menu":"Featuers","classsName":"h-menu-marketplace-li"},
-  {"header_menu":"Roadmap","classsName":"h-menu-whitepaper-li"}
+  {
+    "header_menu": "Adventure",
+    "classsName": "h-menu-adventure-li",
+    "link": "#earnAdventure"
+  },
+  {
+    "header_menu": "Featuers",
+    "classsName": "h-menu-feature-li",
+    "link": "#specialFeatures"
+  },
+  {
+    "header_menu": "Roadmap",
+    "classsName": "h-menu-roadmap-li",
+    "link": "#roadmap"
+  }
 ]
-
-
-
-
-
-
-

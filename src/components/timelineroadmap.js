@@ -1,17 +1,19 @@
 import React, { useState } from "react";
 import { Timelinebacked } from "./components";
 import Roadmap_Comp from "./roadmap_Comp";
-import { RoadMap_Images } from "../svg/assets";
 
 const Timelineroadmap = () => {
   return (
-    <div className="Timeline_Parent d-flex flex-column align-items-center pt-5">
+    <div
+      id="roadmap"
+      className="Timeline_Parent d-flex flex-column align-items-center px-3 px-sm-4 px-md-0 "
+    >
       <div className=" roadmap-parent mb-5  ">
         <div className="roadmap-header d-flex justify-content-center align-items-center text-white">
-         Road Map
+          Road Map
         </div>
 
-        <div>
+        <div className="mt-5 mt-lg-0 ">
           <Roadmap_Comp
             contentParent=""
             contentImage=""
@@ -78,7 +80,7 @@ const Timelineroadmap = () => {
             text3="Token Presale 1&2"
             text4="Airdrop 1&2"
             text5="Pancakeswap Listing."
-            text6="Locked Pancakeswap Liquidity Pool."
+            text6="Pancakeswap Liquidity Pool."
             text7=""
           />
           <Roadmap_Comp
@@ -108,8 +110,8 @@ const Timelineroadmap = () => {
             lefttimlineContent="left-timline-content"
             heading="Q6 2021"
             text1="Multi Chain connectivity."
-            text2="Major Exchange Listing, Preferably Binance."
-            text3="Mainstream release of Pluniverse Mini Games on Android"
+            text2="Major Exchange Listing"
+            text3="Mainstream release of Pluniverse "
             text4="Land sale"
             text5=""
             text6=""
@@ -134,7 +136,7 @@ const Timelineroadmap = () => {
           />
         </div>
       </div>
-      {/* <Timelinebacked /> */}
+      <Timelinebacked />
     </div>
   );
 };

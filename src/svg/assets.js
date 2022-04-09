@@ -11,6 +11,14 @@ export { default as GameMode_CardText } from "./earnadventure/game_mode.svg";
 export { default as card_Img } from "./earnadventure/card_img.png";
 export { default as Footer_Logo } from "./footer/footer_logo.png";
 
+export { default as Circle_icon } from "./specials_features/circle_icon.png";
+export { default as Feature_underline1 } from "./specials_features/feature-underline1.png";
+export { default as Feature_underline2 } from "./specials_features/feature_underline2.png";
+export { default as Deflationary } from "./specials_features/Deflationary.png";
+export { default as Guild } from "./specials_features/Guild.png";
+export { default as Marketplace } from "./specials_features/Marketplace.png";
+export { default as Ownerships } from "./specials_features/Ownerships.png";
+
 export const TimeLines_BackedImages = [
   {
     BackedbyCard: require("./timelines/cards_images/royal_gaming.png").default,
@@ -37,8 +45,6 @@ export const Footer_soicalIcons = [
 ];
 
 export const RoadMap_Images = {
-  Timline_backgroundcolor: require("./timelines/timline_backgroundcolor.png")
-    .default,
   Timline_backgroundImage: require("./timelines/timline_backgroundImage.png")
     .default,
   Timeline_vertical_line: require("./timelines/timeline_vertical_line.svg")
