@@ -1,5 +1,5 @@
 import React from "react";
-import { TimeLines_BackedImages } from "../svg/assets";
+import { TimeLines_BackedImages } from "../../../svg/assets";
 
 const Timelinebacked = () => {
   return (

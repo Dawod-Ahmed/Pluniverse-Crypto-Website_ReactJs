@@ -8,7 +8,7 @@ import {
   Guild,
   Marketplace,
   Ownerships,
-} from "../svg/assets";
+} from "../../../svg/assets";
 const Specialfeatures = () => {
   const [featuresData, setFeaturesData] = useState([
     {

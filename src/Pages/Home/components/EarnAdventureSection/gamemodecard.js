@@ -7,7 +7,7 @@ import {
   header_underline,
   GameMode_CardText,
   card_border,
-} from "../../svg/assets.js";
+} from "../../../../svg/assets.js";
 
 const GameModeCard = () => {
   return (

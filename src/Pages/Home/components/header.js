@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { HeaderData } from "../Data/components";
-import { Logo, Tooglebtn } from "../svg/assets";
+import { HeaderData } from "../../../Data/components";
+import { Logo, Tooglebtn } from "../../../svg/assets";
 
 const Header = () => {
   const [menu, setMenu] = useState(false);

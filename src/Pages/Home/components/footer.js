@@ -1,5 +1,5 @@
 import React from "react";
-import { Footer_Logo, Footer_soicalIcons } from "../svg/assets";
+import { Footer_Logo, Footer_soicalIcons } from "../../../svg/assets";
 const Foooter = () => {
   return (
     <footer

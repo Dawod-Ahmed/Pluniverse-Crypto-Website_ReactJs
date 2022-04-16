@@ -1,7 +1,7 @@
 import React from "react";
 // import {header_underline1} from '.../svg/assets'
 import { Gamemodecard } from "../components";
-import { satan_sahdow, Satan, header_underline } from "../../svg/assets.js";
+import { satan_sahdow, Satan, header_underline } from "../../../../svg/assets.js";
 
 const EarnAdventure = () => {
   return (

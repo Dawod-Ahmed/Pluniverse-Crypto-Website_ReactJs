@@ -1,6 +1,6 @@
 import React from "react";
 
-import { RoadMap_Images } from "../svg/assets";
+import { RoadMap_Images } from "../../../svg/assets";
 const roadmap_Comp = (props) => {
   const { heading, text1, text2, text3, text4, text5, text6, text7 } = props;
   const { contentParent, contentImage, contentdiv } = props;
