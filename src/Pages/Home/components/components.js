@@ -7,3 +7,7 @@ export {default as Timelinebacked} from './timelinebacked_sec'
 export {default as Timelineroadmap} from './timelineroadmap'
 export {default as roadmap_Comp} from './roadmap_Comp'
 export {default as Footer} from './footer'
+
+export {default as HomePage} from '../index'
+export {default as BagdePage} from '../../BagdePage/index'
+

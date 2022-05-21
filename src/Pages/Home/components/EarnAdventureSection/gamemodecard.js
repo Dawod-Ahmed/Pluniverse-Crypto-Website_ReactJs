@@ -14,7 +14,7 @@ const GameModeCard = () => {
     <div className="card-parent  d-flex justify-content-center align-items-center flex-column flex-lg-row  position-relative">
       {/* <img src={card_border} alt="" className="position-absolute w-100 h-100" /> */}
 
-      <img src={card_Img} alt="" className="card-img m-auto " />
+      <img src={card_Img} alt="" className="home-card-img m-auto " />
       <div className="card-parent-right-sec d-flex flex-column align-items-start pt-4 pt-sm-5 pt-lg-0 px-lg-5">
         <span className="card-header-parent">
           <div className="card-header d-flex justify-content-center align-items-center text-white fw-bold display-4 pb-4 ">

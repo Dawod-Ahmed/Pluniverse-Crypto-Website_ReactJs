@@ -434,7 +434,7 @@ cursor: pointer;
 
 /* ----Start Card Styling of this Section------ */
 
-.card-img {
+.home-card-img {
   margin-top: 105px;
   margin-left: 105px;
   width: 650px !important;
@@ -520,7 +520,7 @@ cursor: pointer;
     margin-bottom: 70px !important;
   }
 
-  .card-img {
+  .home-card-img {
     width: 550px !important;
     height: 350px;
   }
@@ -554,7 +554,7 @@ cursor: pointer;
     margin-bottom: 200px !important;
   }
 
-  .card-img {
+  .home-card-img {
     margin-top: 105px;
     margin-left: 105px;
     width: 480px !important;
@@ -678,7 +678,7 @@ cursor: pointer;
     margin-bottom: 100px;
   }
 
-  .card-img {
+  .home-card-img {
     width: 300px !important;
     height: 210px;
   }
@@ -1485,6 +1485,10 @@ cursor: pointer;
   background-repeat: no-repeat;
   z-index: 999;
   cursor: pointer;
+}
+
+div .active-scroll {
+  display: block !important;
 }
 
 @media screen and (max-width: 1399px) {

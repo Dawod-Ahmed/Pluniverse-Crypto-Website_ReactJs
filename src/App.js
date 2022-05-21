@@ -1,17 +1,28 @@
 import React from "react";
-import { Route, Routes, Router } from "react-router-dom";
-import HomePage from "./Pages/Home/index";
-import BadgePage from "./Pages/BagdePage/index";
+// import { Route, Switch, Redirect } from "react-router-dom";
+
+import {
+  HomePage,
+  BagdePage,
+  Header,
+  Footer,
+} from "./Pages/Home/components/components";
+
+// import BadgePage from "./Pages/BagdePage/index";
+
 const App = () => {
   return (
-    <div>
-      {/* <Router>
-        <Route exact path="/" element={<HomePage />}></Route>
-        <Route exact path="/founderbadge" element={<BadgePage />}></Route>
-      </Router> */}
-      {/* <HomePage /> */}
-      <BadgePage />
-    </div>
+    <>
+      <Header />
+      {/* <Switch>
+        <Route exact path="/home" component={HomePage} />
+        <Route exact path="/founderbadge" component={BadgePage} />
+        <Redirect exact to="/" />
+      </Switch> */}
+      <HomePage />
+      {/* <BagdePage /> */}
+      <Footer />
+    </>
   );
 };
 
