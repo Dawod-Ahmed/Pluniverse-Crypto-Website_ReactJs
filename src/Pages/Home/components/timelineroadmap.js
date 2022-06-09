@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Timelinebacked } from "./components";
-import Roadmap_Comp from "./roadmap_Comp";
+import RoadmapComp from "./roadmap";
 
 const Timelineroadmap = () => {
   return (
@@ -14,7 +14,7 @@ const Timelineroadmap = () => {
         </div>
 
         <div className="mt-5 mt-lg-0 ">
-          <Roadmap_Comp
+          <RoadmapComp
             contentParent=""
             contentImage=""
             contentdiv=""
@@ -32,7 +32,7 @@ const Timelineroadmap = () => {
             text7="Network selection Negotiation"
           />
           ;
-          <Roadmap_Comp
+          <RoadmapComp
             contentParent=""
             contentImage=""
             contentdiv=""
@@ -49,7 +49,7 @@ const Timelineroadmap = () => {
             text6=""
             text7=""
           />
-          <Roadmap_Comp
+          <RoadmapComp
             contentParent=""
             contentImage=""
             contentdiv=""
@@ -66,7 +66,7 @@ const Timelineroadmap = () => {
             text6=""
             text7=""
           />
-          <Roadmap_Comp
+          <RoadmapComp
             contentParent=""
             contentImage=""
             contentdiv=""
@@ -83,7 +83,7 @@ const Timelineroadmap = () => {
             text6="Pancakeswap Liquidity Pool."
             text7=""
           />
-          <Roadmap_Comp
+          <RoadmapComp
             contentParent=""
             contentImage=""
             contentdiv=""
@@ -100,7 +100,7 @@ const Timelineroadmap = () => {
             text6=""
             text7=""
           />
-          <Roadmap_Comp
+          <RoadmapComp
             contentParent=""
             contentImage=""
             contentdiv=""
@@ -117,7 +117,7 @@ const Timelineroadmap = () => {
             text6=""
             text7=""
           />
-          <Roadmap_Comp
+          <RoadmapComp
             contentParent=""
             contentImage=""
             contentdiv=""
