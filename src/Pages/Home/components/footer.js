@@ -42,18 +42,18 @@ const Foooter = () => {
       </div>
       <div className="footer-rightpart px-3 px-sm-4 px-md-0">
         <div
-          class="input-group mb-3  mb-md-4
+          className="input-group mb-3  mb-md-4
   mb-lg-5"
         >
           <input
             type="text"
-            class="form-control subscribe-input fw-bold"
+            className="form-control subscribe-input fw-bold"
             placeholder="abc@gmail.com"
             aria-label="Recipient's username"
             aria-describedby="button-addon2"
           />
           <button
-            class="btn btn-success subscribe-btn fw-bold"
+            className="btn btn-success subscribe-btn fw-bold"
             type="button"
             id="button-addon2"
           >
