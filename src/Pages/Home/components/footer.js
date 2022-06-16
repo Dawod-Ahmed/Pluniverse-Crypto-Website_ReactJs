@@ -17,26 +17,37 @@ const Foooter = () => {
             Stay Conected!
           </p>
           <div className="social-icons-parent d-flex justify-content-center ml-2  ">
-            <img
-              src={Footer_soicalIcons[0].SoicalIcon}
-              alt=""
-              className="soical-icon instagram-icon ml-2 "
-            />
-            <img
-              src={Footer_soicalIcons[1].SoicalIcon}
-              alt=""
-              className="soical-icon discord-icon"
-            />
-            <img
-              src={Footer_soicalIcons[2].SoicalIcon}
-              alt=""
-              className="soical-icon twitter-icon"
-            />
-            <img
-              src={Footer_soicalIcons[3].SoicalIcon}
-              alt=""
-              className="soical-icon facebook-icon"
-            />
+            <a href="https://www.instagram.com/accounts/login/?next=/pluniversegame">
+              <img
+                src={Footer_soicalIcons[0].SoicalIcon}
+                alt="img"
+                className="soical-icon instagram-icon ml-2 "
+              />
+            </a>
+            <a href="https://discord.com/invite/Du3jUNjZc8">
+              {" "}
+              <img
+                src={Footer_soicalIcons[1].SoicalIcon}
+                alt="img"
+                className="soical-icon discord-icon"
+              />
+            </a>
+            <a href="https://twitter.com/pluniversegame">
+              {" "}
+              <img
+                src={Footer_soicalIcons[2].SoicalIcon}
+                alt="img"
+                className="soical-icon twitter-icon"
+              />
+            </a>
+            <a href="https://www.facebook.com/pluniversegame">
+              {" "}
+              <img
+                src={Footer_soicalIcons[3].SoicalIcon}
+                alt="img"
+                className="soical-icon facebook-icon"
+              />
+            </a>
           </div>
         </div>
       </div>
