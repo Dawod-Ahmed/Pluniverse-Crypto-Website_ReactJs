@@ -7,7 +7,7 @@ const Roadmap_Comp = (props) => {
   const { righttimline, lefttimeline, leftXline, lefttimlineContent } = props;
   // console.log("Test", props.timelinedetails.classes.contentImage);
   // console.log("Test", props.timelinedetails.timeline);
-  console.log("Test", props.heading);
+  // console.log("Test", props.heading);
   return (
     <>
       <div className="roadmap-subparent d-flex align-items-center flex-column flex-lg-row">

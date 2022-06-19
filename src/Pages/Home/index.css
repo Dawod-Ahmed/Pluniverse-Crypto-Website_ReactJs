@@ -1,4 +1,7 @@
-@import url(//db.onlinewebfonts.com/c/f697c472b2ad5a1ca383a63c349f3dd9?family=ProximaNova-Bold);
+@font-face {
+  font-family: "ProximaNova-Bold";
+  src: url(../../fonts/FontsFree-Net-Proxima-Nova-Bold.otf);
+}
 
 * {
   padding: 0;
