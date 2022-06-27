@@ -1,9 +1,11 @@
 import {
   Hero,
   EarnAdventureSection,
+  BagdePage,
   SpecialFeatures,
   Timelineroadmap,
 } from "./components/components";
+
 import "./index.css";
 const Home = () => {
   const scrolltotop = () => {
@@ -29,6 +31,7 @@ const Home = () => {
         <SpecialFeatures />
       </div>
       <Timelineroadmap />
+      <BagdePage/>
     </>
   );
 };

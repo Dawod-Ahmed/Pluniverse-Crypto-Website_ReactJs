@@ -10,15 +10,17 @@ import {
   Lord_ListData,
   Legendary_ListData,
 } from "./BadgeCardsData/components";
- 
+
 // import second from "../BagdePage/badge_Section";
 import Cardcomponent from "./cardComponent";
 
 const foundarbadge = () => {
   return (
     <>
-    
-      <div className="badge-section-parent d-flex flex-column align-items-center">
+      <div
+        id="founderbadge"
+        className="badge-section-parent d-flex flex-column align-items-center"
+      >
         <div className="badge-section-main ">
           <div className="badge-heading-section d-flex justify-content-center d-flex flex-column mb-5">
             <h1 className="founder-header text-center text-light mb-4">
@@ -110,7 +112,6 @@ const foundarbadge = () => {
           </p>
         </div>
       </div>
-      
     </>
   );
 };

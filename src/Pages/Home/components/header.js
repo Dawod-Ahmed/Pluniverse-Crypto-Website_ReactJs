@@ -74,7 +74,12 @@ const Header = () => {
               </div>
             </div>
 
-            <button className="btn h-btn text-light rounded-1  fw-bold ">
+            <button
+              className="btn h-btn text-light rounded-1  fw-bold "
+              onClick={() => {
+                window.location.href = "#founderbadge";
+              }}
+            >
               Founder Badges
             </button>
           </div>

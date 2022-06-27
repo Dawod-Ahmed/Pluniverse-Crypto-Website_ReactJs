@@ -1,5 +1,5 @@
 import React from "react";
-// import { Route, Switch, Redirect } from "react-router-dom";
+import { Route, Routes, Redirect } from "react-router-dom";
 
 import {
   HomePage,
@@ -14,12 +14,13 @@ const App = () => {
   return (
     <>
       <Header />
-      {/* <Switch>
-        <Route exact path="/home" component={HomePage} />
-        <Route exact path="/founderbadge" component={BadgePage} />
-        <Redirect exact to="/" />
-      </Switch> */}
-      <HomePage />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route exact path="/home" element={<HomePage />} />
+        {/* <Route exact path="/founderbadge" element={<BagdePage />} /> */}
+        {/* <Redirect exact to="/" /> */}
+      </Routes>
+      {/* <HomePage /> */}
       {/* <BagdePage /> */}
       <Footer />
     </>
