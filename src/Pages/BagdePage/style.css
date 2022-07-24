@@ -80,6 +80,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap");
 
 .badge-section-parent {
+/* padding-top:75px!important; */
   max-width: 2200px;
   background-image: url(badge_Section/background_badge_section.png);
   background-repeat: no-repeat;
@@ -97,6 +98,7 @@
 .founder-header {
   font-family: "Poppins", sans-serif;
   font-size: 40px;
+  font-weight:700!important;
 }
 
 .founder-para {
@@ -281,6 +283,7 @@ div div .conqueror-badge-card {
 
   .badge-section-parent {
     background-size: cover;
+    padding-top:55px!important;
   }
 
   div div .badge-card {
@@ -306,6 +309,7 @@ div div .conqueror-badge-card {
 
   .badge-section-parent {
     background-size: cover;
+    /* padding-top:50px!important; */
   }
   div div .badge-card {
     max-width: 280px;

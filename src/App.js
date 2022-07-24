@@ -1,9 +1,9 @@
 import React from "react";
-import { Route, Routes, Redirect } from "react-router-dom";
+import { Route, Switch, Redirect } from "react-router-dom";
 
 import {
   HomePage,
-  BagdePage,
+ 
   Header,
   Footer,
 } from "./Pages/Home/components/components";
@@ -14,14 +14,13 @@ const App = () => {
   return (
     <>
       <Header />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route exact path="/home" element={<HomePage />} />
-        {/* <Route exact path="/founderbadge" element={<BagdePage />} /> */}
-        {/* <Redirect exact to="/" /> */}
-      </Routes>
-      {/* <HomePage /> */}
-      {/* <BagdePage /> */}
+      <Switch>
+       
+        <Route exact path="/home" component={HomePage} />
+        <Route exact path="/" component={HomePage} />
+        <Redirect exact to="/" />
+      </Switch>
+    
       <Footer />
     </>
   );
